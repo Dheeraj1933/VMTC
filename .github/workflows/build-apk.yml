@@ -17,7 +17,7 @@ jobs:
       - name: Find and extract VMTMC project ZIP
         run: |
           mkdir -p build-project
-          unzip -q VMTMC-GitHub-Ready-Fixed.zip -d build-project
+          unzip -q VMTMC-GitHub-Ready-Fixed-v2.zip -d build-project
 
           if [ -d "build-project/VMTMC" ]; then
             mv build-project/VMTMC/* build-project/
